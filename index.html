@@ -1,0 +1,960 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+      <nav class="navbar bg-body-tertiary " >
+        <div class="container-fluid">
+          <img src="./images/icon.svg" alt=""  width="150px" height="35px" class="d-inline-block align-text-top">
+          <form class="d-flex" role="search" style="margin-right: 5%; width: 40%;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            
+          </form>
+          <div class="list">
+            <button type="button" class="btn btn-light">
+              <i class='bx bxs-heart'>wishlist</i>
+            </button>
+            <button type="button" class="btn btn-light">
+              <i class='bx bx-cart-alt'>Card</i>
+            </button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar 2 -->
+      <nav class="navbar navbar-expand-lg bg-secondary " >
+        <div class="container-fluid" style="margin-left: 350px;">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="font-size: 20px; padding:0 3px 0 3px; " >
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#d1">Our Delicacies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#p1">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#g1"> Gallery </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#a1"> About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ----------curosal ------------->
+      <div id="carouselExample" class="carousel slide" style="margin-top: 5px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/cake1.jpeg" class="d-block w-100" alt="..." style="height:315px;">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/cake 2.jpeg" class="d-block w-100" alt="..." style="height:315px;">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/cake 3.jpeg" class="d-block w-100" alt="..." style="height:315px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <!--.............................. curosal end............. -->
+      <!-- .....................grid start................... -->
+      <div class="container-fluid" style="margin-left: 100px;">
+        <div class="row" >
+          <div class="col-md-12">
+            <center>
+              <h3 class="color">Fresh Cakes Online Delivery</h3>
+            </center>
+          </div>
+          <div class="col-md-3" style="border: 1px solid black; margin-left: 25px;">
+            <img src="./images/i1.jpeg" alt="" style= "width:290px; height:250px;margin:3px; border-radius: 5px;"> 
+            <center>
+              <h5 style="color: blue;">Birdhday Cakes</h5>
+              <h5><i class='bx bx-rupee'></i>549 1Kg </h5>
+              <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>599</cite>      
+                <cite style="color:green; font-size: 18px;">9% Off</cite></p>
+            </center>
+            <div class="one" >
+              <div class="two">
+                <button type="button" class="btn btn-success">
+                 4.9<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(2534)
+                </button>
+                
+              </div>
+              <div class="two">
+                <button type="button" class="btn btn-primary" >
+                  <h5 class="h">Buy Now</h5>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="border: 1px solid black;margin-left: 25px;">
+            <img src="./images/i2.jpeg" alt="" style= "width:290px; height:250px;margin:3px; border-radius: 5px;"> 
+            <center>
+              <h5 style="color: blue;">Anniversary Cakes</h5>
+              <h5><i class='bx bx-rupee'></i>599 1Kg </h5>
+              <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>550</cite>      
+                <cite style="color:green; font-size: 18px;">6% Off</cite></p>
+            </center>
+            <div class="one" >
+              <div class="two">
+                <button type="button" class="btn btn-success">
+                 4.9<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(253)
+                </button>
+                
+              </div>
+              <div class="two">
+                <button type="button" class="btn btn-primary" >
+                  <h5 class="h">Buy Now</h5>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="border: 1px solid black;margin-left: 25px;">
+            <img src="./images/i3.jpeg" alt="" style= "width:290px; height:250px;margin:3px; border-radius: 5px;"> 
+            <center>
+              <h5 style="color: blue;">Designer Cakes</h5>
+              <h5><i class='bx bx-rupee'></i>399 1Kg </h5>
+              <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>449</cite>      
+                <cite style="color:green; font-size: 18px;">12% Off</cite></p>
+            </center>
+            <div class="one" >
+              <div class="two">
+                <button type="button" class="btn btn-success">
+                 4.9<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(1432)
+                </button>
+                
+              </div>
+              <div class="two">
+                <button type="button" class="btn btn-primary" >
+                  <h5 class="h">Buy Now</h5>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- grid end -->
+      <br><br>
+      <!--........................ card 1.................... -->
+      <div class="container-fluid" id="d1">
+        <div class="row">
+          <div class="col-md-12">
+            <center>
+              <h3 class="co">Our Delicacies</h3>
+            </center>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p1.jpeg" class="card-img-top" alt="..." style="padding:5px;">
+              <div class="card-body">
+                <h5 class="card-title">Alphaso Mango Cakes</h5>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="font-size: 20px;">&#9733;</span><br>
+               <h4> <i class='bx bx-rupee'></i>299 1Kg</h4>
+               <p style="color:rgb(243, 64, 109)">Available-from Tommorrow</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p2.jpeg" class="card-img-top" alt="..." style="padding:5px;">
+              <div class="card-body">
+                <h5 class="card-title">American Almond  Cakes</h5>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="font-size: 20px;color:goldenrod;">&#9733;</span><br>
+               <h4> <i class='bx bx-rupee'></i>399 1Kg</h4>
+               <p style="color:rgb(243, 64, 109)">Available-Today</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p3.jpeg" class="card-img-top" alt="..." style="padding:5px;">
+              <div class="card-body">
+                <h5 class="card-title">Belgium Truffle Cake</h5>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="font-size: 20px;">&#9733;</span><br>
+               <h4> <i class='bx bx-rupee'></i>355 1Kg</h4>
+               <p style="color:rgb(243, 64, 109)">Available-Today</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p4.jpeg" class="card-img-top" alt="..." style="padding:5px;">
+              <div class="card-body">
+                <h5 class="card-title">Canadian Blueberry Cakes</h5>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                <span class="star" style="font-size: 20px;">&#9733;</span><br>
+               <h4> <i class='bx bx-rupee'></i>459 1Kg</h4>
+               <p style="color:rgb(243, 64, 109)">Available-Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!--...................... product.......................... -->
+      <div class="container-fluid" id="p1">
+        <div class="row">
+          <div class="col-md-12">
+            <center>
+             <h3 class="co1"> Products</h3>
+            </center>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro1.webp" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Premium Pineapple Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>599</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>659</cite>      
+                    <cite style="color:green; font-size: 18px;">9% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.3 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#order">
+                  order now
+                </button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro2.webp" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Mixed Fruid Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>579</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>699</cite>      
+                    <cite style="color:green; font-size: 18px;">11% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.4 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(453)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro4.webp" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title"> Premium Red Velvet Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>259</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>399</cite>      
+                    <cite style="color:green; font-size: 18px;">4% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.4 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro3.jpg" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Russian Honey Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>799</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>849</cite>      
+                    <cite style="color:green; font-size: 18px;">23% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.3 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro5.jpg" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">ButterScotch Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>699</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>799</cite>      
+                    <cite style="color:green; font-size: 18px;">5% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.4 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(623)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro6.webp" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Hart Shape Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>259</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>329</cite>      
+                    <cite style="color:green; font-size: 18px;">3% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.2 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro7.jpg" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Black Forest Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>955</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>1050</cite>      
+                    <cite style="color:green; font-size: 18px;">5% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.4 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/pro8.jpg" class="card-img-top" alt="..." style="border-radius: 5px;padding:3px;">
+              <div class="card-body">
+                <h5 class="card-title">Rasmalai Cake</h5>
+                <center>
+                  <h5><i class='bx bx-rupee'></i>499</h5>
+                  <p><cite style="text-decoration: line-through;font-size: 23px; font-weight: 400;"><i class='bx bx-rupee'></i>559</cite>      
+                    <cite style="color:green; font-size: 18px;">8% Off</cite></p>
+                </center>
+                <!-- ..................flexbox apply............. -->
+                <div class="boxes1">
+                  <div class="boxes2">
+                    
+                     <strong>
+                      4.3 |<span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>(234)
+                     </strong> 
+                    
+                  </div>
+                  <div class="boxes2">
+                    <p style="color:red">Available-Today</p>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="button" class="btn btn-warning">Order Now</button>
+              </center>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!--.............................product end .............................. -->
+
+
+      <!--............................ gallery..................................... -->
+      <div class="container-fluid" id="g1">
+        <div class="row">
+          <div class="col-md-12">
+            <center>
+              <h3 class="co">Gallery</h3>
+            </center>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/gallery1.webp" class="card-img-top" alt="..." style="padding:5px;border-radius: 3px;">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center; background-color: deeppink; color:white">
+                  Vanilla Cream Cake
+                </h5>
+                
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  View detils
+                </button>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body" style="background-color: darkgrey;">
+                    <strong>"Cake is not just a foot, it's an emotion".</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/gallery2.webp" class="card-img-top" alt="..." style="padding:5px; border-radius: 3px;">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center; background-color:rgb(236, 127, 236); color:white">
+                 Premium Jar Cake
+
+                </h3>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  View Dedails
+                </button>
+                <div class="collapse" id="collapseExample1">
+                  <div class="card card-body" style="background-color: blanchedalmond;">
+                    <strong>
+                      "Cake is like a warm hug, it makes everything better".
+                    </strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/gallery3.webp" class="card-img-top" alt="..." style="padding:5px; border-radius: 3px;">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center; background-color: crimson;color:white">
+                  White Choco Blueberry Cake
+                </h3>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                  View Details
+                </button>
+                <div class="collapse" id="collapseExample2">
+                  <div class="card card-body" style="background-color: aquamarine;">
+                    <strong>
+                      "Cake is the Sweetest form of art."
+                    </strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- second coloum -->
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/order1.webp" class="card-img-top" alt="..." style="padding: 5px;border-radius: 2px;">
+              <div class="card-body">
+                <strong  class="card-title">
+                  Esay Guid of baking Techniques For Different Types Of Cakes in OTG
+                </strong>
+                <p>Bakking a cakes can be as much of an art as it is a science, and when it comes to different types of
+                  cakes, each variety, especially.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/order2.webp" class="card-img-top" alt="..." style="padding: 5px;border-radius: 2px;">
+              <div class="card-body">
+                <strong  class="card-title">
+                  Fun And Esay Cake Recipes for family Bonding
+                </strong>
+                <p>
+                  In a world stirring with busyness,finding those magical moments for family bonding can be a 
+                  challange, yet, there a delicacious and delicious and delightful way to bring.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/order3.webp" class="card-img-top" alt="..." style="padding: 5px;border-radius: 2px;">
+              <div class="card-body">
+                <strong  class="card-title">
+                  The Bakers Secret Creaming Butter and Sugar for perfect Result     
+                </strong>
+                <p>
+                  Step into the enchanting world of baking, where simple Ingeredients like flour, sugar,and Butter
+                  comes together to creat delicious treat.
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-3" style="margin-top: 15px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/order4.webp" class="card-img-top" alt="..." style="padding: 5px;border-radius: 2px;">
+              <div class="card-body">
+                <strong  class="card-title">
+                  Tips For Baking The Perfect Cake With The Rifht Temperature.
+                </strong>
+                <p>
+                  What's more satisfying than baking a cake? composing a flowless cake infused with love, care,considered
+                  and just the right touchof heart!.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!--.............................. gallery end..................... -->
+
+      <!--............................... review.......................... -->
+
+      <div class="container-fluid" style="background-color: rgb(228, 187, 174); ">
+        <div class="row" >
+          <div class="col-md-12">
+            <h3 style="color: rgb(13, 90, 90); margin-top: 10px;margin-bottom: 20px;">Read Some Of Our Recent Customer Reviews </h3>
+          </div>
+
+          <div class="col-md-4" style="margin-bottom: 20px;">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/c1.jpeg" class="card-img-top" alt="..." style="height:350px;">
+              <div class="card-body">
+                <div class="concheck">
+                  <div class="check1">
+                    <img src="./images/p4.jpeg" alt="" style="width: 50px;height:50px;clip-path: circle(30%);">
+                    <strong>
+                      Menaga <cite style="color:gray">menaga @gmail.com</cite>
+                    </strong>
+                  </div>
+                </div>
+                <p style="color:gray">Rating</p>
+                <strong>
+                  4.2 <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                </strong><br>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reviewo" aria-expanded="false" aria-controls="collapseExample">
+                  Review 
+                </button>
+                <div class="collapse" id="reviewo">
+                  <div class="card card-body">
+                    This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    <div style="display:inline-block">
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                       <span class="star" style="font-size: 20px;">&#9733;</span>
+                    </div>
+                  
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#commentss" aria-expanded="false" aria-controls="collapseWidthExample">
+                   Comments
+                </button>
+                
+                <div style="min-height: px;">
+                  <div class="collapse collapse-horizontal" id="commentss">
+                    <div class="card card-body" style="width: 300px;height:200px;">
+                      <input type="text" placeholder="comment" style="height:87px">
+                      <center>
+                        <button style="margin-top: 15px;background-color: green;color:white;">submit</button>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+
+              
+              </div>
+              
+              
+            </div>  
+          </div>
+          <!-- 222222222222222222222222222222222222222222222222 -->
+
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/r2.jpeg" class="card-img-top" alt="..." style="height:350px">
+              <div class="card-body">
+                <div class="concheck">
+                  <div class="check1">
+                    <img src="./images/profile 1.jpg" alt="" style="width: 50px;height:50px;clip-path: circle(30%);">
+                    <strong>
+                      sobika <cite style="color:gray">sobika @gmail.com</cite>
+                    </strong>
+                  </div>
+                </div>
+                <p style="color:gray">Rating</p>
+                <strong>
+                  4.0 <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                </strong><br>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#review2" aria-expanded="false" aria-controls="collapseExample">
+                  Review 
+                </button>
+                <div class="collapse" id="review2">
+                  <div class="card card-body">
+                    This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    <div style="display:inline-block">
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="font-size: 20px;">&#9733;</span>
+                       <span class="star" style="font-size: 20px;">&#9733;</span>
+                    </div>
+                  
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#comments1" aria-expanded="false" aria-controls="collapseWidthExample">
+                   Comments
+                </button>
+                
+                <div style="min-height: px;">
+                  <div class="collapse collapse-horizontal" id="comments1">
+                    <div class="card card-body" style="width: 300px;height:200px;">
+                      <input type="text" placeholder="comment" style="height:87px">
+                      <center>
+                        <button style="margin-top: 15px;background-color: green;color:white;">submit</button>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>  
+          </div>
+          <!-- 3333333333333333333333333333333333333333333333333333333333333333333 -->
+
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="./images/r3.jpeg" class="card-img-top" alt="..." style="height:350px">
+              <div class="card-body">
+                <div class="concheck">
+                  <div class="check1">
+                    <img src="./images/profile 3.jpg" alt="" style="width: 50px;height:50px;clip-path: circle(30%);">
+                    <strong>
+                      manju <cite style="color:gray">manju @gmail.com</cite>
+                    </strong>
+                  </div>
+                </div>
+                <p style="color:gray">Rating</p>
+                <strong>
+                  4.1 <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                </strong><br>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#review3" aria-expanded="false" aria-controls="collapseExample">
+                  Review 
+                </button>
+                <div class="collapse" id="review3">
+                  <div class="card card-body">
+                    This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    <div style="display:inline-block">
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                      <span class="star" style="color: goldenrod;font-size: 20px;">&#9733;</span>
+                       <span class="star" style="font-size: 20px;">&#9733;</span>
+                    </div>
+                  
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#comments3" aria-expanded="false" aria-controls="collapseWidthExample">
+                   Comments
+                </button>
+                
+                <div style="min-height: px;">
+                  <div class="collapse collapse-horizontal" id="comments3">
+                    <div class="card card-body" style="width: 300px;height:200px;">
+                      <input type="text" placeholder="comment" style="height:87px">
+                      <center>
+                        <button style="margin-top: 15px;background-color: green;color:white;">submit</button>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+
+      </div><br><br>
+      <!-- rrrrrrrrrrrrrrrrrrrrrr Review End  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+
+      <!--------------------------- about as start ------------------------------------------->
+      <div class="container-fluid" id="a1">
+        <div class="row">
+          <div class="col-md-12">
+            <center>
+              <h3 class="co1">About Us</h3>
+            </center>
+          </div>
+          <div class="col-md-5">
+            <!-- <img src="./images/order1.webp" alt="" style="margin-left:20px"> -->
+            <div id="carouselExamples" class="carousel slide" style="margin-top: 5px; margin-left: 20px;">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/order1.webp" class="d-block w-100" alt="..." style="height:350px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/order2.webp" class="d-block w-100" alt="..." style="height:350px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/order3.webp" class="d-block w-100" alt="..." style="height:350px;">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamples" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExamples" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <p style="text-indent: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit deleniti minima eum in, 
+              consectetur earum. Numquam labore vero quae obcaecati dicta itaque ad explicabo officiis laborum aspernatur. Tenetur provident velit ut ea, 
+              rerum eum nulla reprehenderit aut ipsa iste molestiae praesentium eligendi dolores ipsum dolorum omnis, impedit ipsam architecto, quas eaque quo suscipit! Soluta animi veniam reprehenderit illum iusto dolor tempore sunt vero fugit nulla voluptatibus quisquam doloremque ipsum molestiae commodi adipisci ullam, velit iure id nostrum, porro quas, cum vitae? Veniam alias iste perferendis architecto nostrum labore cupiditate eius harum at quaerat? Ipsam, porro saepe aperiam eligendi numquam optio.</p>
+              <center>
+                <button class="bn" type="button"   >
+                  <h5>Read More</h5>
+               </button>
+              </center>
+
+          </div>
+
+        </div>
+
+      </div>
+      <br><br>
+      <div class="container-fluid" style="background-color: gray;">
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+            <strong>
+              INFORMATION
+            </strong>
+
+            
+              <p>About Us</p>
+              <p>Contact Us</p>
+              <p>FAQs</p>
+              <p>Terms of service</p>
+              <p>Refund police</p>
+              <p>Blogs</p>
+            
+          </div>
+          <div class="col-md-4">
+            <strong>
+              SUPPORT
+            </strong>
+           
+              <p>Delivery information</p>
+              <p>Privacy Policy</p>
+              <p>Terms & Conditions</p>
+              <p>Refund Policy</p>
+              <p>Sitemap</p>
+          </div>
+          <div class="col-md-4">
+            <strong>
+              Get in touch
+            </strong>
+            <p><i class='bx bx-phone'></i> +91 9653868535</p>
+            
+            <strong>
+              Follow Us
+              <p><i class='bx bx-envelope'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-youtube'></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-whatsapp'></i>
+
+              
+              </p>
+            </strong>
+          </div>
+        </div>
+      </div>
+      <!-- .........................model login................... -->
+      <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color:rgb(77, 77, 202);">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Name:</p>
+              <input type="text" placeholder="Enter Your Name"><br>
+              <p>Password:</p>
+              <input type="password" placeholder="password">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ...........................model end ........................-->
+
+    <br>
+    <!--............................. model order.............................. -->
+    <div class="modal fade" id="order" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Delivery Address</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" placeholder="Name*">
+            <input type="number" placeholder="Ph.no"><br><br>
+            <input type="text" placeholder="House no./Building Name*"><br><br>
+            <input type="number" placeholder="Pincode"><br><br>
+            <input type="text" placeholder="City Name">
+            <input type="text" placeholder="State"><br><br>
+            <input type="text" placeholder="Landmark">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" >Save</button>
+            <button type="button" data-bs-dismiss="modal" class="btn btn-primary">Deliver this Address</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- ...............................model end................................ -->
+
+      
+    </body>
+</html>

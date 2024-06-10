@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.nav-item .nav-link{
+    color:aliceblue
+}
+.one{
+    justify-content: space-around;
+    display: flex;
+}
+.h{
+    color:red;
+}
+.co{
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+.co1{
+    margin-bottom: 20px;
+    color:blue;
+    text-decoration: underline;
+}
+.boxes1{
+    justify-content: space-between;
+    display: flex;
+}
+.concheck{
+    justify-content: space-between;
+    display: flex;
+}
+.bn{
+    padding:5px;
+    color:white;
+    background-color: rgb(230, 92, 42);
+    border-radius: 5px;
+    
+}
+.bn:hover{
+    background-color: rgb(240, 113, 138);
+    color:black;
+    box-shadow: 6px 10px 15px rgb(53, 2, 10);
+}
+.card:hover{
+    box-shadow: 5px 10px 12px gray  ;
+
+}
+.input{
+    padding:4px;
+}
+
