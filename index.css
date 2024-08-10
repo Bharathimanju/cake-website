@@ -16,11 +16,15 @@
     margin-bottom: 20px;
     color: blue;
     text-decoration: underline;
+    justify-content: center;
+    display: flex;
+    text-underline-offset: 7px;
 }
 .co1{
     margin-bottom: 20px;
     color:blue;
     text-decoration: underline;
+    text-underline-offset: 6px;
 }
 .boxes1{
     justify-content: space-between;
@@ -44,9 +48,19 @@
 }
 .card:hover{
     box-shadow: 5px 10px 12px gray  ;
-
+    transform: translatey(13px);
+}
+.card{
+    transition: transform 0.5s ease; 
 }
 .input{
     padding:4px;
 }
+.modal-footer{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
 
